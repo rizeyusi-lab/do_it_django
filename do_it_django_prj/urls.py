@@ -20,10 +20,10 @@ from django.urls import path, include
 from django.conf import settings
 from django.conf.urls.static import static
 
+
 urlpatterns = [
     path('blog/', include('blog.urls')),
     path('admin/', admin.site.urls),
-    # account/ 에서 accounts/ 로 수정 완료
     path('accounts/', include('allauth.urls')),
     path('', include('single_pages.urls')),
 ]
