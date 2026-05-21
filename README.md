@@ -1,4 +1,5 @@
-do_it_django
+# do_it_django
+
 python -m venv venv
 
 pip list
